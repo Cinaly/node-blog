@@ -1,0 +1,32 @@
+.demo-layout-transparent {
+    background: url('../images/road_big.jpg') center / cover;
+
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+}
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 400px;
+}
+.demo-card-square > .mdl-card__title {
+    color: #fff;
+    background:
+            url('../images/shopping.jpg') bottom right 15% no-repeat #46B6AC;
+}
+
+.ul1{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4%;
+    overflow: hidden;
+}
+.ul1>li{
+    width:26%;
+    margin-top: 60px;
+}
